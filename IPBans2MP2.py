@@ -15,7 +15,7 @@ while successOldLoad:
         print("I can't seem to be able to open " + bansFile + ". Please make sure it exists and you have permission to read this file!")
 
 print('Load success. Will output new file as IpBansNew.txt. Rename this to IpBans.txt when done and upload to your server!')
-newBans = open('IpBans2.txt', "a", encoding='cp850')
+newBans = open('IpBansNew.txt', "a", encoding='cp850')
 
 oldBansArray = oldBans.readlines()
 
